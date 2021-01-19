@@ -12,5 +12,5 @@ def normalize(input_string):
 
 
 def no_vowels(input_string):
-    normalized=re.sub('a|e|i|o|u','',input_string)
+    normalized=re.sub('a|e|i|o|u|A|E|I|O|U','',input_string)
     return normalized
